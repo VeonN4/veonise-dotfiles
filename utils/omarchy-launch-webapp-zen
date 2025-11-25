@@ -1,0 +1,2 @@
+#!/bin/bash
+exec setsid uwsm app -- zen-browser --no-remote -P "WebApp" --new-window --class WebApp "$1" "${@:2}"
